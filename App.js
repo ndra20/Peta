@@ -16,37 +16,46 @@ export default class App extends Component {
       {
         key:1,
         latlng: {
-          latitude:-8.598953,
-          longitude: 115.253444
+          latitude:-8.1122561,
+          longitude: 115.0787794
         },
-        title: 'Letak Supermarket di Bali',
+        title: 'Letak Singaraja Futsal',
         subtitle: ''
       },
       {
         key:2,
         latlng: {
-          latitude:-8.684688,
-          longitude: 115.182621
+          latitude:-8.1153024,
+          longitude: 115.0817594
         },
-        title: 'Supermarket Carefour di Bali',
+        title: 'Metro Sport Singaraja',
         subtitle: ''
       },
       {
         key:3,
         latlng: {
-          latitude:-8.688075,
-          longitude: 115.263630
+          latitude:-8.0869582,
+          longitude: 115.1393703
         },
-        title: 'Hardys Supermarket Bali'
+        title: 'ARI FUTSAL'
       }
       ,
       {
         key:4,
         latlng: {
-          latitude:-8.690279,
-          longitude: 115.263103
+          latitude:-8.0999925,
+          longitude: 115.0928627
         },
-        title: 'Coco Mart Bali'
+        title: 'G2 Futsal'
+      }
+      ,
+      {
+        key:5,
+        latlng: {
+          latitude:-8.1422082,
+          longitude: 115.1706071
+        },
+        title: 'Gonk Futsal'
       }
    ]
   };
@@ -56,7 +65,7 @@ export default class App extends Component {
       <View style={styles.contMain}>
         <View style={styles.contHeader}>
             <Text style={styles.textHeader}>
-              Letak Supermarket di Bali
+              Letak Lapangan Futsal di Singaraja
             </Text>
         </View>
         <View style={styles.contMaps}>
