@@ -1,2 +1,1 @@
-# peta
 # ProjectPeta
